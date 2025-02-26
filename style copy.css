@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* small screen CSS */
+html,body
+ {
+
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(35, 35, 35)!important;
+  color: rgb(238, 238, 238) !important;
+  font-family: "Anonymous Pro", monospace !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  position: relative;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mobile Styles (max-width: 768px) */
+
+.section-title {
+  color: white;
+  text-align: center;
+  font-size: 3.2em;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Ensure it stays on top of other content */
+  background-color: rgb(35, 35, 35) !important;
+  transition: all 0.3s ease;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: none;
+
+}
+
+#navbar.shrink {
+  background-color: rgba(35, 35, 35, 0.9); /* Dark background when shrinking */
+  padding: 5px 0; /* Much smaller padding when scrolling */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5); /* More noticeable shadow */
+}
+
+#navbar.shrink .navbar-brand {
+  opacity: 0;  /* Fade out logo */
+  visibility: hidden;  /* Make sure it's not clickable */
+}
+
+#navbar.shrink .navbar-nav a {
+  color: aqua !important; /* Use !important to ensure styles apply */
+}
+
+
+a.nav-link {
+  color: white !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 1em !important;
+  transition: color 0.3s ease;
+}
+ .collapse{
+  margin-left: -400px;
+ }
+.hero-container{
+
+margin-top: 50px;
+}
+
+
+.hero-container img{
+  padding-top:100px;
+}
+
+
+.main-title{
+  margin-top: -630px;
+
+}
+/* Home css begins  */
+  #navbar .navbar-brand {
+  color: aqua !important;
+  font-size: 1.8em !important;
+  margin-right: 100px !important;
+  font-weight: 510 !important;
+  font-family: "anonymous pro", monospace !important;
+  transition: opacity 0.3s ease;
+}
+
+
+sup {
+  font-size: xx-small;
+}
+
+.name {
+  margin-top: 300px;
+  color: white;
+  font-size:3em;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+ 
+}
+
+.job-title {
+  margin-top: 15px;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1em;
+  
+}
+
+
+
+.frontend{
+  text-decoration: underline 10px rgb(152, 54, 208); 
+  text-underline-position: under;
+  font-size: 8.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 15px;
+}
+.software{
+  text-decoration: underline 10px rgb(216, 38, 160);
+  text-underline-position: under;
+  font-size: 8.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 15px;
+}
+
+#skills {
+  margin-top: 300px;
+}
+
+
+#projects {
+  margin-top:50px;
+  padding-bottom: 300px;
+
+}
+
+#projects img{
+transition: transform 0.3s ease; /* Smooth transition */
+
+
+}
+/* Apply to the container of the image */
+.image-container {
+  overflow: hidden;
+}
+
+
+#projects img:hover{
+  transform: scale(1.1); /* Scales the image to 110% */;
+
+}
+.full-height {
+  height: 100vh;
+}
+.col-equal {
+  /* Ensures that the columns will have the same height and width */
+  border: 3px solid #dce3eb; /* Border for visual effect */
+  padding: 30px;
+}
+
+
+/* For text centering */
+.content {
+  text-align: center;
+  flex-grow: 1; /* Ensures content stretches to fill vertical space */
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-button {
+  width: 90px;
+  height: 40px;
+  background-color: rgb(110, 108, 108)!important;
+  border: none;
+  font-family: "anonymous pro", monospace;
+  color: rgb(238, 238, 238);
+  font-size: 1em;
+  padding: 3px;
+  text-align: center;
+  margin: 0.3125rem;
+  border-radius: 2px;
+}
+
+.skills-button-project {
+
+  background-color: rgb(110, 108, 108)!important;
+  border: none;
+  font-family: "anonymous pro", monospace;
+  color: rgb(238, 238, 238);
+  font-size: 1em;
+  padding: 3px;
+  text-align: center;
+  margin: 0.2em;
+    border-radius: 2px;
+ 
+}
+
+
+.brain-cloud{
+position: relative;
+left: 970px;
+top:50px;
+
+}
+/* Base Styles for Elements to Animate */
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Animation Class for When Elements Are Visible */
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optional: Smooth transition for elements when they become visible */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*  Contact form*/
+
+@media (max-width: 768px) {
+  .input-field, .textarea-field {
+      width: 100%; /* Full width for input fields */
+      margin-top: 20px; /* Reduced top margin for better spacing */
+      height: 40px; /* Standard height for input fields */
+      border: none;
+      border-bottom: 3px rgb(255, 255, 255) solid;
+      background-color: rgb(35, 35, 35);
+      color: #ffffff;
+      font-size: 1rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+  }
+
+  .textarea-field {
+      height: 120px; /* Increased height for textarea */
+  }
+
+  .contact-box {
+      width: 100%; /* Full width for the contact box */
+      height: auto; /* Auto height to adjust content */
+      background-color: rgb(35, 35, 35);
+  }
+}
+
+.call-title {
+  margin-top: -200px;
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 3.2em;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.contact-page-title{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 75px;
+  color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  #contact{
+    margin-top: 200px;
+    background: radial-gradient(
+      circle at -8.9% 51.2%,
+      rgb(103, 99, 99) 0%,
+      rgb(35, 35, 35) 15.9%,
+      rgb(40, 40, 40) 15.9%,
+      rgb(40, 40, 40) 24.4%,
+      rgb(35, 35, 35) 24.5%,
+      rgb(35, 35, 35) 66%
+    );
+    min-height: 100vh;
+  }
+  
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+   #contact-form{
+
+    margin-top: -50px;
+   }
+  
+  
+  .email-address{
+    color: #ea8496;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .contact-box button{
+    margin-top: 50px;
+    font-size: 1.2rem;
+    background-color: rgb(35, 35, 35);
+    width: 25%;
+    color: #ea8496;
+    cursor: pointer;
+  }
+  
+  .logos {
+    position: absolute;
+    bottom: -1340px;
+    left: 200px;
+  }
+  
+  .social-icons {
+    margin-top: 150px;
+    gap: 15px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+  }
+  .linkedin-icon {
+    transition: 0.2s ease-in-out 0s;
+  }
+  .linkedin-icon:hover {
+    transform: scale(1.5);
+  }
+  .github-icon {
+    transition: 0.2s ease-in-out 0s;
+  }
+  .github-icon:hover {
+    transform: scale(1.5);
+  }
+  
+  footer{
+    margin-top:300px;
+    height: 500px;
+    background-color: rgb(0, 0, 0)!important;
+    color: white;
+  }
+
+  footer p{
+    background-color: black!important;
+  }
+
+
+
+/*================================================
+==================================================
+==================================================*/
+
+/* Media query starts for larger screens */
+
+@media (min-width: 992px) {
+/* Style for the name text */
+.name {
+  color: white;
+  font-size: 8.5rem;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 300px; 
+
+}
+  
+
+  
+/* Style for the job title */
+.job-title {
+  margin-top: 15px;
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+
+
+  
+}
+
+
+  hero-container img{
+    padding-top:100px;
+  }
+  
+  .main-title{
+    margin-top: -830px;
+  
+  }
+
+  .navbar-brand {
+    margin-left: 50px !important;
+    margin-right: 225px !important;
+  }
+
+  .section-title {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  #skills {
+    margin-top: 380px;
+    padding-bottom: -600px;
+  }
+
+#skills .button-container{
+  width:35%;
+}
+
+
+.col-equal {
+  /* Ensures that the columns will have the same height and width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;  /* Or any value you want for consistent height */
+  flex: 1;
+  border: 2px solid #dce3eb; /* Border for visual effect */
+  padding: 30px;
+}
+
+  #projects {
+    margin-top: -150px;
+
+  }
+  .project-section-title{
+    margin-bottom: -60px;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .call-title {
+    margin-top: -150px;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+  .input-field{
+    margin-top: 50px;
+    width:400px;
+    height:40px;
+    border: none;
+    border-bottom: 3px rgb(255, 255, 255) solid;
+    background-color: rgb(35, 35, 35);
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+   .textarea-field{
+    margin-top: 100px;
+    width:850px;
+    height:40px;
+    border:none;
+    border-bottom: 3px rgb(255, 255, 255) solid;
+    background-color: rgb(35, 35, 35);
+    color:#ffffff;
+    font-size: 1rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  
+   }
+  .contact-box{
+    width:500px;
+    height: 400px;
+    background-color: rgb(35, 35, 35);
+    
+  }
+
+
+}
+/* Media query ends */
+
+
