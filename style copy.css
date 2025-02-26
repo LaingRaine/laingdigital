@@ -48,7 +48,7 @@ html {
 }
 
 .project-section-title{
-  margin-top: 5000px;
+  margin-top: 3000px;
   color: white;
   text-align: center;
   font-size: 3.2em;
@@ -243,12 +243,7 @@ transition: transform 0.3s ease; /* Smooth transition */
 }
 
 
-.brain-cloud{
-position: relative;
-left: 970px;
-top:50px;
 
-}
 /* Base Styles for Elements to Animate */
 .hidden {
   opacity: 0;
@@ -546,7 +541,12 @@ top:50px;
     background-color: rgb(35, 35, 35);
     
   }
+.brain-cloud{
+position: relative;
+left: 970px;
+top:50px;
 
+}
 
 }
 /* Media query ends */
