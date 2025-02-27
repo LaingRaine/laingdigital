@@ -50,7 +50,7 @@ html {
     margin-bottom: -60px;
     color: white;
     text-align: center;
-    font-size: 5em;
+    font-size: 3.2em;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -426,6 +426,14 @@ top:50px;
 
 }
   
+.project-section-title{
+  
+  
+    font-size: 5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 
   
 /* Style for the job title */
