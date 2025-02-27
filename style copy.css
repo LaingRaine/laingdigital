@@ -435,7 +435,7 @@ top:50px;
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 5rem;
 
 
   
@@ -457,6 +457,15 @@ top:50px;
   }
 
   .section-title {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+   .project-section-title {
     color: white;
     text-align: center;
     font-size: 5em;
