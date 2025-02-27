@@ -46,8 +46,9 @@ html {
   font-weight: 500;
   font-style: normal;
 }
-.project-section-title:{
-color: white;
+.project-section-title{
+ margin-top: -100px;
+  color: white;
   font-size: 3.2em;
   font-family: "poppins", sans-serif;
   font-weight: 500;
