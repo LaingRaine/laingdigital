@@ -24,7 +24,8 @@ html,body
   transition: background-color 0.3s ease; /* Smooth transition */
   position: relative;
 }
-
+.brain-cloud{
+ display: none;
 
 html {
   scroll-behavior: smooth;
@@ -147,8 +148,6 @@ sup {
   font-size: 1em;
   
 }
-
-
 
 .frontend{
   text-decoration: underline 10px rgb(152, 54, 208); 
@@ -422,8 +421,6 @@ transition: transform 0.3s ease; /* Smooth transition */
 
 }
   
-
-  
 /* Style for the job title */
 .job-title {
   margin-top: 15px;
@@ -432,9 +429,6 @@ transition: transform 0.3s ease; /* Smooth transition */
   font-weight: 600;
   font-style: normal;
   font-size: 1.6rem;
-
-
-  
 }
 
 
