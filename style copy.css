@@ -25,6 +25,7 @@ html,body
   position: relative;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -44,16 +45,6 @@ html {
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-}
-
-.project-section-title{
-  margin-top: 750px;
-  color: white;
-  text-align: center;
-  font-size: 3.2em;
-  font-family: "poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal; 
 }
 
 #navbar {
@@ -90,7 +81,7 @@ a.nav-link {
   color: white !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
-  font-size: 1.3em !important;
+  font-size: 1em !important;
   transition: color 0.3s ease;
 }
  .collapse{
@@ -147,6 +138,8 @@ sup {
   
 }
 
+
+
 .frontend{
   text-decoration: underline 10px rgb(152, 54, 208); 
   text-underline-position: under;
@@ -172,7 +165,7 @@ sup {
 
 
 #projects {
-  margin-top:50px;
+  margin-top:700px;
   padding-bottom: 300px;
 
 }
@@ -240,7 +233,12 @@ transition: transform 0.3s ease; /* Smooth transition */
 }
 
 
+.brain-cloud{
+position: relative;
+left: 970px;
+top:50px;
 
+}
 /* Base Styles for Elements to Animate */
 .hidden {
   opacity: 0;
@@ -419,6 +417,8 @@ transition: transform 0.3s ease; /* Smooth transition */
 
 }
   
+
+  
 /* Style for the job title */
 .job-title {
   margin-top: 15px;
@@ -427,6 +427,9 @@ transition: transform 0.3s ease; /* Smooth transition */
   font-weight: 600;
   font-style: normal;
   font-size: 1.6rem;
+
+
+  
 }
 
 
@@ -479,7 +482,7 @@ transition: transform 0.3s ease; /* Smooth transition */
 
   }
   .project-section-title{
-    margin-bottom: 0px;
+    margin-bottom: -60px;
     color: white;
     text-align: center;
     font-size: 5em;
@@ -533,12 +536,7 @@ transition: transform 0.3s ease; /* Smooth transition */
     background-color: rgb(35, 35, 35);
     
   }
-.brain-cloud{
-position: relative;
-left: 970px;
-top:50px;
 
-}
 
 }
 /* Media query ends */
